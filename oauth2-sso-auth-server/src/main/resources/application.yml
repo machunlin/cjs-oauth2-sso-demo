@@ -1,16 +1,15 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/permission
+    url: jdbc:mysql://119.3.105.213:3306/auth
     username: root
-    password: 123456
-    driver-class-name: com.mysql.jdbc.Driver
+    password: 1024@Augo
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
   session:
     store-type: redis
   redis:
     host: 127.0.0.1
-    password: 123456
     port: 6379
 server:
   port: 8080
